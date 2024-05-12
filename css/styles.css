@@ -1,0 +1,219 @@
+body {
+    font-family: Montserrat;
+}
+
+                                              /*Sections*/
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section {}
+
+                                           /*Title Section*/
+#title {
+    text-align: center;
+}
+.big-heading {
+    font-family: Montserrat-black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid {
+   padding: 3% 10% 7%; 
+}
+.btn:hover {
+    color: ;
+}
+
+                                             /*Navbar Style*/
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: ubuntu;
+    font-size:2.5rem;
+    font-weight: bold;
+    margin-bottom:px;
+}
+
+.nav-item {
+    padding: o 60px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat-light;
+}
+
+                                              /*Download- Button*/
+.download-button {
+    margin: 15% 3% 5% 0;
+}
+
+                                                /*Title Image*/
+.iphone {
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 17%;
+}
+
+                                              /*Features Properties*/
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.container {
+    text-align: center;
+    margin-top: 195px;
+}
+.check {
+    position: relative;
+    left: 15px;
+    color: green;
+    font-size: 40px;
+}
+.bull {
+    position: relative;
+    left: 15px;
+    color: aqua;
+    font-size: 40px;
+}
+.heart {
+    position: relative;
+    left: 15px;
+    color: pink;
+    font-size: 40px;
+}
+.easy {
+    margin-bottom: 140px;
+    font-family: Montserrat-black;
+    font-size: 20px;
+}
+.elite {
+    margin-bottom: 140px;
+    font-family: Montserrat-black;
+    font-size: 20px;
+}
+.guarantee {
+    margin-bottom: 140px;
+    font-family: Montserrat-black;
+    font-size: 20px;
+}
+.check:hover {
+    color: blue;
+}
+.bull:hover {
+    color: yellow;
+}
+.heart:hover {
+    color: red;
+}
+.fa-solid {
+    margin-bottom: 1rem;
+}
+
+                                      /*Testimonials*/
+#testimonials {
+    text-align: center;
+}
+.testimonials-h2 {
+    font-family: Montserrat ;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+}
+.testimonials-image {
+    border-radius: 500px;
+    width: 250px;
+    margin: 20px;
+}
+.new-dog {
+    border-radius: 500px;
+    width: 185px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+                                    /*Prss Section*/
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    padding: 30px 20px 50px;
+}
+
+                                      /*Pricing*/
+#pricing {
+    padding: 100px;
+}                            
+.pricing-header {
+    text-align: center;
+    margin-top: 3.5rem;
+    font-family: Montserrat Black;
+    font-weight: 30px !important;
+    font-size: 22px !important;
+}
+.card-group {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3.5rem;
+}
+.price {
+    text-align: center;
+    font-family: Montserrat;
+    color: orange;
+}
+.pricing-group {
+    padding: 3% 2%;
+}
+.first:hover {
+    background-color: black;
+}
+.second:hover {
+    background-color: grey;
+}
+.third:hover {
+    background-color:aqua;
+}
+
+                                                   /*Media Query*/
+@media (max-width: 1028px) {
+    .download-button {
+        font-size: 15px;
+    }
+    .iphone {
+        position: static;
+        transform: rotate(0);
+        height: 300px;
+        width: 200px;
+    }
+}
+
+                                                   /*Call To Action */
+.cta-heading {
+    text-align: center;
+    font-family: Montserrat-black;
+    font-size: 50px;
+    margin-top: px;
+    margin-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.last-button {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+                                                    /*Footer*/
+#footer {
+    padding-bottom: 100px;
+    margin-top: 0;
+}
+.icon {
+    margin: 20px 10px;
+}
